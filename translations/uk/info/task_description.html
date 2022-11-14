@@ -1,0 +1,52 @@
+<!-- Describe task in general -->
+
+<p>
+    Ти віддаєш перевагу старому доброму 12-годинному формату часу. Але сучасний світ, в якому ми живемо, скоріше використовує 24-годинний формат, і ти бачиш його всюди. Твоє завдання - перетворити час з 24-годинного формату у формат 12 годин, дотримуючись наступних правил:
+    <ul>
+        <li>
+            - вихідний формат повинен бути <b class="code">'hh:mm a.m.'</b> (для годин до полудня) або <b class="code">'hh:mm p.m.'</b> (для годин після полудня);
+        </li>
+        <li>
+            - якщо години менше ніж 10 - не пиши '0' попереду. Наприклад: <b class="code">'9:05 a.m.'</b>.
+        </li>
+    </ul>
+    Тут ти можеш знайти корисну інформацію про <a target="_blank" href='https://en.wikipedia.org/wiki/12-hour_clock'>12-годинний формат</a>.
+</p>
+
+<p style="text-align: center;">
+    <img  title="Time" src="{{MEDIA}}time.png" alt="example" style="max-height: 220px"/>
+</p>
+
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Вхідні дані:</strong> Час у 24-годинному форматі (як рядок).
+</p>
+
+<p>
+    <strong>Вихідні дані:</strong> Час у 12-годинному форматі (як рядок). 
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Приклади:</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>Як це використовується:</strong>
+    Для роботи з різними форматами часу.
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p><strong>Передумова:</strong> '00:00' <= time <= '23:59'
+</p>
+<p>
+    <i>Також цікавий факт про "12:00 p.m." і "12:00 a.m.". Назва цього факту - "Плутанина про опівдні та опівночі" - проблема використання "p.m./ a.m." з магічним часом "12:00". Ви можете знайти інформацію про це тут <a target="_blank" href='https://en.wikipedia.org/wiki/12-hour_clock#Confusion_at_noon_and_midnight'>Wikipedia</a> або просто погуглити.</i>
+</p>
