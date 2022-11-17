@@ -10,34 +10,34 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": '12:30',
-            "answer": '12:30 p.m.'
+            "input": ['12:30'],
+            "answer": '12:30 p.m.',
         },
         {
-            "input": '09:00',
-            "answer": '9:00 a.m.'
-        }
+            "input": ['09:00'],
+            "answer": '9:00 a.m.',
+        },
     ],
     "Extra": [
         {
-            "input": '23:15',
-            "answer": '11:15 p.m.'
+            "input": ['23:15'],
+            "answer": '11:15 p.m.',
         },
         {
-            "input": '18:50',
-            "answer": '6:50 p.m.'
+            "input": ['18:50'],
+            "answer": '6:50 p.m.',
         },
 	{
-            "input": '07:07',
-            "answer": '7:07 a.m.'
+            "input": ['07:07'],
+            "answer": '7:07 a.m.',
         },
 	{
-            "input": '00:00',
-            "answer": '12:00 a.m.'
+            "input": ['00:00'],
+            "answer": '12:00 a.m.',
         },
 	{
-            "input": '12:00',
-            "answer": '12:00 p.m.'
-        }
+            "input": ['12:00'],
+            "answer": '12:00 p.m.',
+        },
     ]
 }
